@@ -10,6 +10,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+/**
+ * @version 1.0
+ * @author Usuario
+ */
+
 public class WelcomeScreen extends JPanel {
 
     JLabel title;
@@ -32,7 +37,10 @@ public class WelcomeScreen extends JPanel {
     public void goButtonActionListener() {
         mw.showCard("Two");
     }
-
+/**
+ * 
+ * @param mw 
+ */
     public WelcomeScreen(MainWindow mw) {
         this.mw = mw;
 
